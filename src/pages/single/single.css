@@ -1,0 +1,5 @@
+/* This css file contains the stylings for the single post page. */
+
+.single{
+    display: flex;
+}

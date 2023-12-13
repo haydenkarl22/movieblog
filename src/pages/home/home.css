@@ -1,0 +1,5 @@
+/* This css file contains the display styling for the home page. */
+
+.home{
+    display: flex;
+}

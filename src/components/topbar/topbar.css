@@ -1,0 +1,60 @@
+/* This css file contains the stylings for the topbar component. */
+
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    z-index: 999;
+}
+
+.topLeft,.topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topLeftIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 10px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.searchIcon{
+    font-size: 18;
+    color: #666;
+    cursor: pointer;
+    margin-left: 10px;
+}

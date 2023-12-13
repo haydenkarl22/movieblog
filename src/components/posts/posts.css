@@ -1,0 +1,8 @@
+/* This css file contains the stylings for the posts component. */
+
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
